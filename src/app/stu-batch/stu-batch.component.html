@@ -1,0 +1,41 @@
+
+<div class="d-flex">
+  <input type="text" class="form-control text-dark " placeholder="Search for courses..." [(ngModel)]="term" aria-label="Search" >
+<button>search</button>
+</div>
+<div class="container mt-5">
+
+  <h3>All Batch</h3>
+  <div class="row">
+
+    <div class="col-md-4" *ngFor="let course of courses | searchFilter:term">
+      <div class="card shadow rounded-4 m-2">
+        <div class="position-relative">
+          <img [src]="course.image" class="card-img-top rounded-top-4 p-3" alt="Course Image">
+          <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-2">New</span>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{ course.title }}</h5>
+          <p class="card-text">{{ course.subtitle }}</p>
+
+          <ul class="list-unstyled mb-3">
+            <li><i class="bi bi-calendar-event"></i> Starts on {{ course.startDate }}</li>
+            <li><i class="bi bi-calendar-x"></i> Ends on {{ course.endDate }}</li>
+            <li><i class="bi bi-building "></i> {{ course.info }}</li>
+          </ul>
+
+          <a href="#" class="text-primary fw-semibold d-block mb-3">Free Counselling</a>
+
+          <div class="d-flex gap-2">
+            <button class="btn btn-outline-primary w-50" [routerLink]="['../batch_details_sub']" routerLinkActive="router-link-active">Explore</button>
+            <button class="btn btn-primary w-50" [routerLink]="['../order_summery']" routerLinkActive="router-link-active">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>

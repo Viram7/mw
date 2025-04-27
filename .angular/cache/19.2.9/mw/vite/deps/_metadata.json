@@ -1,0 +1,88 @@
+{
+  "hash": "e0c24926",
+  "configHash": "a0cd40cb",
+  "lockfileHash": "39933703",
+  "browserHash": "cea5138c",
+  "optimized": {
+    "@angular/cdk/bidi": {
+      "src": "../../../../../../node_modules/@angular/cdk/fesm2022/bidi.mjs",
+      "file": "@angular_cdk_bidi.js",
+      "fileHash": "e5d9e46d",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "87332baa",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "422a65b2",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "3300883a",
+      "needsInterop": false
+    },
+    "@angular/material/dialog": {
+      "src": "../../../../../../node_modules/@angular/material/fesm2022/dialog.mjs",
+      "file": "@angular_material_dialog.js",
+      "fileHash": "fa4ef2a0",
+      "needsInterop": false
+    },
+    "@angular/material/list": {
+      "src": "../../../../../../node_modules/@angular/material/fesm2022/list.mjs",
+      "file": "@angular_material_list.js",
+      "fileHash": "85ae1606",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "28be2b46",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "28990390",
+      "needsInterop": false
+    },
+    "@angular/material/tabs": {
+      "src": "../../../../../../node_modules/@angular/material/fesm2022/tabs.mjs",
+      "file": "@angular_material_tabs.js",
+      "fileHash": "4ba667c5",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-HZPEXXBH": {
+      "file": "chunk-HZPEXXBH.js"
+    },
+    "chunk-6PUWWVM5": {
+      "file": "chunk-6PUWWVM5.js"
+    },
+    "chunk-DSDAS22A": {
+      "file": "chunk-DSDAS22A.js"
+    },
+    "chunk-HF4AP7I6": {
+      "file": "chunk-HF4AP7I6.js"
+    },
+    "chunk-66MXJE6Y": {
+      "file": "chunk-66MXJE6Y.js"
+    },
+    "chunk-R4V7PXNR": {
+      "file": "chunk-R4V7PXNR.js"
+    },
+    "chunk-RPIMZGTW": {
+      "file": "chunk-RPIMZGTW.js"
+    },
+    "chunk-43GNSC4C": {
+      "file": "chunk-43GNSC4C.js"
+    }
+  }
+}
